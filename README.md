@@ -11,4 +11,5 @@ This script lets you downgrade your mac from Java 7 to Java 6.
 
 ### How it works
 A shell command is generated into the variable *command*. Then, it is run through an appeal to the Terminal.
-For more information, read [manualdowngrade.txt](https://github.com/Fornost461/JavaDowngrader/blob/master/manualdowngrade.txt).
+
+For more informations, read [manualdowngrade.txt](https://github.com/Fornost461/JavaDowngrader/blob/master/manualdowngrade.txt).
