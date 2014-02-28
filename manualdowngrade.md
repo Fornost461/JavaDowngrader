@@ -26,4 +26,4 @@ sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPl
 
 Then type enter.
 
-### Congratulations, Java 6 should now work!
+## Congratulations, Java 6 should now work!
