@@ -4,7 +4,7 @@ javadowngrader
 This script lets you downgrade your mac from Java 7 to Java 6.
 
 
-### Who should use this script
+### Who should use this script:
 
 If:
 
@@ -13,7 +13,7 @@ If:
 
 Then this script may definitely help you. It will restore your Java 6 configuration. Then, you will be able to use Java programs as before (web applets, software such as Minecraft and so on). Even the program  _Java Preferences_ will work as before.
 
-### Who should *NOT* use this script
+### Who should *NOT* use this script:
 
 If:
 
@@ -22,7 +22,7 @@ If:
 
 Then this script should not work and should not be used, unless you truly understand what you are doing.
 
-### How to use
+### How to use:
 
 1. Download [main.scpt](https://github.com/Fornost461/JavaDowngrader/blob/master/main.scpt)
 2. Double-click on it to open with the AppleScript Editor
@@ -30,7 +30,7 @@ Then this script should not work and should not be used, unless you truly unders
 4. Follow the instructions.
 
 
-### How it works
+### How it works:
 
 A shell command is generated into the variable *command*. Then, it is run through an appeal to the Terminal.
 
