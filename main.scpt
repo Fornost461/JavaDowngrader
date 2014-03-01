@@ -13,10 +13,10 @@ try
 	display dialog "You should close all other applications and check that no other user is logged in. Then, click Launch." buttons {"Cancel", "Launch"} default button 2
 	if button returned of the result is "Cancel" then return
 	
-	--Uninstall Java 7:
+	--Uninstall Java 7
 	set command to "sudo rm -Rf /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin >/dev/null 2>&1 & "
 	
-	--Remove the Java 7 JDK if you installed it:
+	--Remove the Java 7 JDK if you installed it
 	set command to command & "sudo rm -Rf /Library/Java/JavaVirtualMachines/jdk1.7*.jdk >/dev/null 2>&1 & "
 	
 	--Re-enable Java 6
