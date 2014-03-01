@@ -20,7 +20,7 @@ If:
 * You are not on Snow Leopard
 * Or if you totally uninstalled Java 6
 
-Then this script should not work.
+Then this script should not work and should not be used, unless you truly understand what you are doing.
 
 ### How to use
 
