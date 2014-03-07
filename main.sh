@@ -13,7 +13,7 @@
 echo "Starting..."
 
 #	Uninstall Java 7
-sudo rm -Rf /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin
+sudo rm -Rf /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
 
 #	Remove the Java 7 JDK if you installed it
 sudo rm -Rf /Library/Java/JavaVirtualMachines/jdk1.7*.jdk
