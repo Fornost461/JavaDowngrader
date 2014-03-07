@@ -18,8 +18,12 @@ sudo rm -Rf /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin
 #	Remove the Java 7 JDK if you installed it
 sudo rm -Rf /Library/Java/JavaVirtualMachines/jdk1.7*.jdk
 
+# Remove the symbolic links to the startup daemons
+sudo rm -f /Library/LaunchAgents/com.oracle.java.Java-Updater.plist
+sudo rm -f /Library/LaunchDaemons/com.oracle.java.Helper-Tool.plist
+
 #	Re-enable Java 6
-sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin
+sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
 sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Commands/javaws /usr/bin/javaws
 
 echo "Over! Java 6 should now work!"
