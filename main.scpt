@@ -20,8 +20,10 @@ try
 	set command to command & "sudo rm -Rf /Library/Java/JavaVirtualMachines/jdk1.7*.jdk >/dev/null 2>&1 & "
 	
 	--Re-enable Java 6
-	set command to command & "sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin >/dev/null 2>&1 & sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Commands/javaws /usr/bin/javaws >/dev/null 2>&1 &"
+	set command to command & "sudo ln -sf /System/Library/Java/Support/Deploy.bundle/Contents/Resources/JavaPlugin2_NPAPI.plugin /Library/Internet\\ Plug-Ins/JavaAppletPlugin.plugin >/dev/null 2>&1 & sudo ln -sf /System/Library/Frameworks/JavaVM.framework/Commands/javaws /usr/bin/javaws >/dev/null 2>&1 & "
 	
+	--Delete startup daemons, actually these are just empty symlinks
+	set command to command & "sudo rm -f /Library/LaunchAgents/com.oracle.java.Java-Updater.plist /Library/LaunchDaemons/com.oracle.java.Helper-Tool.plist >/dev/null 2>&1 &"
 	
 	--Launch the whole command
 	tell application "Terminal" to do shell script command with administrator privileges
