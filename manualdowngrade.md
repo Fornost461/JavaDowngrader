@@ -14,7 +14,7 @@ _You have to be an administrator to do what follows._
 
 In the _Terminal_ window, copy and paste the command below:
 
-    sudo rm -Rf /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin ; sudo rm -Rf /Library/Java/JavaVirtualMachines/jdk1.7*.jdk
+    sudo rm -Rf /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin /Library/Java/JavaVirtualMachines/jdk1.7*.jdk /Library/LaunchAgents/com.oracle.java.Java-Updater.plist /Library/LaunchDaemons/com.oracle.java.Helper-Tool.plist
 
 Then type _enter_. If your password is asked, type it and type enter.
 
