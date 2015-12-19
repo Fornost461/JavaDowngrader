@@ -9,7 +9,7 @@ This script lets you downgrade your mac from Java 7 to Java 6.
 If:
 
 * you are on Snow Leopard (that is, Mac OS 10.6.x)
-* you messed up your Java installation because you tried to install Java 7 by running the installer whereas it was not supposed to be compatible with your computer
+* and you messed up your Java installation because you tried to install Java 7 by running the installer whereas it was not supposed to be compatible with your computer
 
 Then this script may definitely help you. It will restore your Java 6 configuration. Then, you will be able to use Java programs as before (web applets, software such as Minecraft and so on). Even the program  _Java Preferences_ will work as before.
 
@@ -17,8 +17,8 @@ Then this script may definitely help you. It will restore your Java 6 configurat
 
 If:
 
-* You are not on Snow Leopard
-* Or if you totally uninstalled Java 6
+* you are not on Snow Leopard
+* or if you totally uninstalled Java 6
 
 Then this script should not work and should not be used, unless you truly understand what you are doing.
 
@@ -34,4 +34,4 @@ Then this script should not work and should not be used, unless you truly unders
 
 A shell command is generated into the variable *command*. Then, it is run through a call to the Terminal.
 
-For more informations, read [manualdowngrade.md](https://github.com/Fornost461/JavaDowngrader/blob/master/manualdowngrade.md).
+For further information about what this command does, read [manualdowngrade.md](https://github.com/Fornost461/JavaDowngrader/blob/master/manualdowngrade.md).
