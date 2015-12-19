@@ -32,6 +32,6 @@ Then this script should not work and should not be used, unless you truly unders
 
 ### How it works:
 
-A shell command is generated into the variable *command*. Then, it is run through an appeal to the Terminal.
+A shell command is generated into the variable *command*. Then, it is run through a call to the Terminal.
 
 For more informations, read [manualdowngrade.md](https://github.com/Fornost461/JavaDowngrader/blob/master/manualdowngrade.md).
