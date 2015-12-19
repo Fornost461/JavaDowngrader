@@ -1,7 +1,7 @@
 How to manually downgrade to Java 6
 ==============
 
-_You have to be an administrator to do what follows._
+_You have to have administrator rights on your system to do what follows._
 
 ### 1) Open the Terminal
 
