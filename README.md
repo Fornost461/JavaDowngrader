@@ -1,4 +1,4 @@
-javadowngrader
+JavaDowngrader
 ==============
 
 This script lets you downgrade your mac from Java 7 to Java 6.
